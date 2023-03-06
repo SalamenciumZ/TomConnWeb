@@ -83,6 +83,7 @@
         overflow: hidden;
         font-size: 1.2vw;
         text-align: left;
+        margin-left: 2%;
     }
 
     .options-sidebar a {
@@ -97,6 +98,11 @@
         color: #fec00f;
         border-radius: 5%;
         margin-right: 20%;
+    }
+    
+    .sidebarIcons {
+        height: 25px;
+        width: 25px;
     }
 
 </style>

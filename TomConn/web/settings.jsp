@@ -34,35 +34,42 @@
                     </ul>
                 </div>
                 <div class='userAccR'>
-                    <div>
-                        <h1 class="">Account Settings</h1>
-                    </div>
-                    <div class='textOptions'>
-                        <form action="" method="GET">
-                            <label for="fname">First name</label>
-                            <input type="text" id="fname" name="fname">
-                            <label for="lname">Last name</label>
-                            <input type="text" id="lname" name="lname">
-                            <label for="affiliation">Affiliation</label>
-                            <input type="text" id="affiliation" name="affiliation">
-                            <label for="college">College</label>
-                            <input type="text" id="college" name="college">
-                            <input type="submit" value="Submit">
+                    <div class="temp1">
+                        <div>
+                            <h1 class="">Account Settings</h1>
+                        </div>
+                        <div class='textOptions'>
+                            <form action="" method="GET">
+                                <div style="float:left;margin-right:20px;">
+                                    <label for="fname">First Name</label>
+                                    <input id="firstname" type="text" value="" placeholder="Sample" name="firstname">
+                                </div>
 
-                        </form>
+                                <div style="float:left;">
+                                    <label for="lname">Last Name</label>
+                                    <input id="lastname" type="text" value="" placeholder="User" name="lastname">
+                                </div>
+                                <div style="float:left;margin-right:20px;">
+                                    <label for="affl">Affiliation</label>
+                                    <input id="affiliation" type="text" value="" placeholder="Student" name="affiliation">
+                                </div>
+
+                                <div style="float:left;">
+                                    <label for="coll">College</label>
+                                    <input id="coll" type="text" value="" placeholder="CICS" name="coll">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                     <div class="buttons">
-                        <!-- Button "Save" -->
-                        <!-- Button Cancel -->
+                        <button type="button" class="save">Save</button>
+                        <button type="button" class="cancel">Cancel</button>
                     </div>
                 </div>
             </div>
         </div>
     <body>
-        <!-- background-image: url('https://img.freepik.com/free-photo/yellow-cartoon-background_125540-1346.jpg') ;
-        background-repeat: no-repeat;
-        height: 50%;
-        background-position: center; -->
+        <!-- set accR width to % and set bottom buttons div to non absolute -->
 </html>
 <style>
     html{
@@ -84,7 +91,7 @@
         height:100%;
         display: inline-flex;
         flex-direction: column;
-        
+
     }
     .userAcc{
         margin: auto;
@@ -98,16 +105,29 @@
     }
 
     .userAccL {
-        border-right: 6px #857979;
-        height: 450px;
+        border-right: solid;
+        border-color: #857979;
+        border-width: 3px;
+        height: 350px;
         display: block;
         text-align: center;
         justify-content: space-around;
+        overflow-x: hidden;
+    }
+
+    .userAccR {
+        margin: 20px;
+        padding: 20px;
+        overflow-x: hidden;
+        display: block;
+        position: relative;
+        
     }
 
     .userIcon {
         height: 37%;
         width: 37%;
+        margin-top: 7%;
     }
 
     .userOptions {
@@ -117,7 +137,7 @@
         overflow: hidden;
         font-size: 1.3vw;
         text-align: left;
-
+        margin-left: 10%;
     }
 
     .options {
@@ -135,14 +155,46 @@
     }
 
     .textOptions {
-        margin-top: 25%;
-        
+        margin-top: 5%;
+
     }
 
-    form {
-        
+    input, label{
+        display: block;
+        margin-bottom: 5%;
     }
-    #fname, #lname, #affiliation, #college {
-        margin-top: 1%;
+
+    label {
+        color: #857979;
     }
+
+    input {
+        width: 185px;
+        height: 30px;
+        border-radius: 7px;
+        background-color: #CECDCD;
+    }
+
+    .buttons {
+        position: absolute;
+        bottom: 10px;
+        width: 500px;
+    }
+
+    button {
+        padding: 1.5%;
+        border-radius: 7px;
+    }
+
+    .save {
+        background-color: #FEC00F;
+        color: #fff;
+    }
+
+    .cancel {
+        background-color: #CECDCD;
+        color: #121212;
+    }
+
+
 </style>

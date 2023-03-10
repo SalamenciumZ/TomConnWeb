@@ -169,7 +169,7 @@
 
                     <div class="flex-container">
                         <div class="image-container">
-                            <a href="https://www.example.com" class="image-link">
+                            <a href="https://myuste.ust.edu.ph/" class="image-link">
                                 <img src="images/MyUsteFinal.png" alt="Paris">
                             </a>
                         </div>
@@ -181,7 +181,7 @@
                         </div>
                         
                         <div class="image-container">
-                            <a href="https://www.example.com" class="image-link">
+                            <a href="https://ust.blackboard.com/?new_loc=%2Fultra%2Fcourse" class="image-link">
                                 <img src="images/cloudCampusFinal.png" alt="Paris">
                             </a>
                         </div>
@@ -189,19 +189,19 @@
 
                     <div class="flex-container">
                         <div class="image-container">
-                            <a href="https://www.example.com" class="image-link">
+                            <a href="https://thomedss.ust.edu.ph/" class="image-link">
                                 <img src="images/healthServiceFinal.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
-                            <a href="https://www.example.com" class="image-link">
+                            <a href="https://alumnirelations.ust.edu.ph/" class="image-link">
                                 <img src="images/ustAlumniFinal.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
-                            <a href="https://www.example.com" class="image-link">
+                            <a href="https://simbahan.ph/santisimorosarioust" class="image-link">
                                 <img src="images/ustChapelFinal.png" alt="Paris">
                             </a>
                         </div>
@@ -209,14 +209,14 @@
 
                     <div class="flex-container">
                         <div class="image-container">
-                            <a href="https://www.example.com" class="image-link">
+                            <a href="https://library.ust.edu.ph/" class="image-link">
                                 <img src="images/ustLibFinal.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
-                            <a href="https://www.example.com" class="image-link">
-                                <img src="images/ustMerchFinal.png" alt="Paris">
+                            <a href="https://campusthreadph.com/product-tag/ust/" class="image-link">
+                                <img src="images/ustMerchandise.png" alt="Paris">
                             </a>
                         </div>
                         

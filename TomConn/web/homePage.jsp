@@ -37,7 +37,7 @@
             }
 
             .flex-container > div {
-                background-color: #f1f1f1;
+                background-color: #DCDCDC;
 
                 margin: 10px;
                 text-align: center;
@@ -170,19 +170,19 @@
                     <div class="flex-container">
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/MyUste.png" alt="Paris">
+                                <img src="images/MyUsteFinal.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/USTHOSPITAL.png" alt="Paris">
+                                <img src="images/campusMap.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/ustAlumni.png" alt="Paris">
+                                <img src="images/cloudCampusFinal.png" alt="Paris">
                             </a>
                         </div>
                     </div>
@@ -190,19 +190,19 @@
                     <div class="flex-container">
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/ustLib.png" alt="Paris">
+                                <img src="images/healthServiceFinal.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/ustMerch.png" alt="Paris">
+                                <img src="images/ustAlumniFinal.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/ustLib.png" alt="Paris">
+                                <img src="images/ustChapelFinal.png" alt="Paris">
                             </a>
                         </div>
                     </div>
@@ -210,19 +210,19 @@
                     <div class="flex-container">
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/ustLib.png" alt="Paris">
+                                <img src="images/ustLibFinal.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/ustLib.png" alt="Paris">
+                                <img src="images/ustMerchFinal.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="images/ustLib.png" alt="Paris">
+                                <img src="images/ustLibFinal.png" alt="Paris">
                             </a>
                         </div>                   
                     </div>

@@ -14,7 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Tomasino Connect</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="CSS/tomasinoStyles.css"/> 
+        <link rel="stylesheet" href="images/tomasinoStyles.css"/> 
         <style>
             #footer {
                 position: fixed;
@@ -115,8 +115,8 @@
         <!-- END OF PAGE HEADER -->
 
         <header class="header">
-            <img src="CSS/ustHeaderLeft.png" alt="Image 1">
-            <img src="CSS/ustHeaderRight.png" alt="Image 2">
+            <img src="images/ustHeaderLeft.png" alt="Image 1">
+            <img src="images/ustHeaderRight.png" alt="Image 2">
         </header>
         <!-- NAVIGATION BAR -->
 
@@ -151,7 +151,7 @@
                 <div class="col-sm content-container" style="background-color:white;">
                     <div><b style ="font-size: 30px">Welcome to the UST One-Stop-Shop</b></div>
 
-                    <div><img src="CSS/sampleImage.jpg" alt="Paris" align="left" width="650"  height="270"></div>
+                    <div><img src="images/sampleImage.jpg" alt="Paris" align="left" width="650"  height="270"></div>
 
                     <div >
                         <p align = "justify"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
@@ -170,19 +170,19 @@
                     <div class="flex-container">
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/MyUste.png" alt="Paris">
+                                <img src="images/MyUste.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/USTHOSPITAL.png" alt="Paris">
+                                <img src="images/USTHOSPITAL.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/ustAlumni.png" alt="Paris">
+                                <img src="images/ustAlumni.png" alt="Paris">
                             </a>
                         </div>
                     </div>
@@ -190,19 +190,19 @@
                     <div class="flex-container">
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/ustLib.png" alt="Paris">
+                                <img src="images/ustLib.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/ustMerch.png" alt="Paris">
+                                <img src="images/ustMerch.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/iconSample.png" alt="Paris">
+                                <img src="images/ustLib.png" alt="Paris">
                             </a>
                         </div>
                     </div>
@@ -210,19 +210,19 @@
                     <div class="flex-container">
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/iconSample.png" alt="Paris">
+                                <img src="images/ustLib.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/iconSample.png" alt="Paris">
+                                <img src="images/ustLib.png" alt="Paris">
                             </a>
                         </div>
                         
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
-                                <img src="CSS/iconSample.png" alt="Paris">
+                                <img src="images/ustLib.png" alt="Paris">
                             </a>
                         </div>                   
                     </div>

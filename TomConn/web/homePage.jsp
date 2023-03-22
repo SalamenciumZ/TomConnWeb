@@ -14,91 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Tomasino Connect</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="images/tomasinoStyles.css"/> 
-        <style>
-            #footer {
-                position: fixed;
-                padding: 10px 10px 0px 10px;
-                bottom: 0;
-                width: 100%;
-                /* Height of the footer*/
-                height: 40px;
-                background: black;
-            }
-        </style>
-
-        <style>
-            .flex-container {
-                display: flex;
-                flex-wrap: nowrap;
-                box-sizing: border-box;
-                justify-content: space-around; 
-                
-            }
-
-            .flex-container > div {
-                background-color: #DCDCDC;
-
-                margin: 10px;
-                text-align: center;
-                line-height: 75px;
-                font-size: 30px;
-            }
-
-            *{
-                margin: 0;
-                padding: 0;
-            }
-
-            .content-container{             
-                padding: 15px;
-                display: flex;
-                width: 50%;
-                flex-direction: column;
-                box-sizing: border-box;
-            }
-        </style>
-
-        <style>
-            /* Adjust the image size and spacing as needed */
-            .header {
-                display: flex;
-                justify-content: space-between;
-            }
-
-            .header img {
-                flex: 1;
-                max-width: 100%;
-                height: auto;
-            }
-        </style>
-
-        <style>
-            /* Add a box shadow to the image */
-            .image-container {
-                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-                display: inline-block;
-            }
-
-            /* Remove any margins or padding from the link */
-            .image-link {
-                display: block;
-                margin: 0;
-                padding: 0;
-                transition: transform 0.3s ease-in-out;
-            }
-
-            /* Set the dimensions of the image */
-            .image-link img {
-                width: 178px;
-                height: 130px;
-            }
-
-            /* Add a scale effect on hover */
-            .image-link:hover {
-                transform: scale(1.05);
-            }
-        </style>
+        <link rel="stylesheet" href="images/tomasinoStyles.css"> 
     </head>
 
 
@@ -119,41 +35,56 @@
             <img src="images/ustHeaderRight.png" alt="Image 2">
         </header>
         <!-- NAVIGATION BAR -->
-
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Support</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link disabled" href="#">FAQs</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link disabled" href="#">Account</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link disabled" href="#">Sign Out</a>
-                </li>
-            </ul>
+        <nav class="navbar">
+            <span class="navbar-icon">&#9776;</span>
+            <a style ="text-align: center;"href="#">About</a>
+            <a href="#">Contact Us</a>
+            <a href="#">FAQs</a>
+            <a href="#">Account</a>
+            <a href="#">Sign Out</a>
         </nav>
+
+
+
         <!-- END OF NAVIGATION BAR -->
 
         <!-- LEFT SECTION -->     
-        <div  style="background: white; margin: 0; padding: 0; width: 100%">
+        <div  style="background: white; margin: 0; padding: 0; width: 100%; ">
 
             <div class="row">
                 <div class="col-sm content-container" style="background-color:white;">
-                    <div><b style ="font-size: 30px">Welcome to the UST One-Stop-Shop</b></div>
+                    <center><div><b style ="font-size: 30px">Welcome to the UST One-Stop-Shop</b></div></center>
 
-                    <div><img src="images/sampleImage.jpg" alt="Paris" align="left" width="650"  height="270"></div>
+                    <div style="display: flex; justify-content: center;padding-top: 30px; padding-bottom: 30px;">
+                        <div class="image-container">
+                            <img id="slideshow-image" src="images/sampleImage.jpg" alt="Paris" width="650" height="270">
+                        </div>
+                        <div>
+                            <!-- Other content here -->
+                        </div>
+                    </div>
 
-                    <div >
+                    <script>
+                        // Define an array of image URLs to display in the slideshow
+                        var imageUrls = ["images/sampleImage.jpg", "images/slideShow1.jpg", "images/slideShow2.jpg"];
+
+                        // Get a reference to the slideshow image element
+                        var slideshowImage = document.getElementById("slideshow-image");
+
+                        // Define a variable to keep track of the current image index
+                        var currentImageIndex = 0;
+
+                        // Function to update the slideshow image to the next image in the array
+                        function updateSlideshowImage() {
+                            currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
+                            slideshowImage.src = imageUrls[currentImageIndex];
+                        }
+
+                        // Call the updateSlideshowImage function every 3 seconds (adjust this as needed)
+                        setInterval(updateSlideshowImage, 5000);
+                    </script>
+
+                    <div style = "padding-left: 20px; padding-right: 20px;">
                         <p align = "justify"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
                             totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
                             sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
@@ -167,19 +98,19 @@
                 <!-- RIGHT SECTION -->
                 <div class="col-sm content-container"  style="background-color:whitesmoke;">
 
-                    <div class="flex-container">
+                    <div class="flex-container" style="padding-top: 40px;">
                         <div class="image-container">
                             <a href="https://myuste.ust.edu.ph/" class="image-link">
                                 <img src="images/MyUsteFinal.png" alt="Paris">
                             </a>
                         </div>
-                        
+
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
                                 <img src="images/campusMap.png" alt="Paris">
                             </a>
                         </div>
-                        
+
                         <div class="image-container">
                             <a href="https://ust.blackboard.com/?new_loc=%2Fultra%2Fcourse" class="image-link">
                                 <img src="images/cloudCampusFinal.png" alt="Paris">
@@ -193,13 +124,13 @@
                                 <img src="images/healthServiceFinal.png" alt="Paris">
                             </a>
                         </div>
-                        
+
                         <div class="image-container">
                             <a href="https://alumnirelations.ust.edu.ph/" class="image-link">
                                 <img src="images/ustAlumniFinal.png" alt="Paris">
                             </a>
                         </div>
-                        
+
                         <div class="image-container">
                             <a href="https://simbahan.ph/santisimorosarioust" class="image-link">
                                 <img src="images/ustChapelFinal.png" alt="Paris">
@@ -213,13 +144,13 @@
                                 <img src="images/ustLibFinal.png" alt="Paris">
                             </a>
                         </div>
-                        
+
                         <div class="image-container">
                             <a href="https://campusthreadph.com/product-tag/ust/" class="image-link">
                                 <img src="images/ustMerchandise.png" alt="Paris">
                             </a>
                         </div>
-                        
+
                         <div class="image-container">
                             <a href="https://www.example.com" class="image-link">
                                 <img src="images/ustLibFinal.png" alt="Paris">
@@ -231,51 +162,12 @@
             </div>
         </div>
 
-        <footer class="bg-dark text-center text-white">
-            <!-- Grid container -->
-            <div class="container p-4 pb-0">
-                <!-- Section: Social media -->
-                <section class="mb-4">
-                    <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                       ><i class="fab fa-facebook-f"></i
-                        ></a>
-
-                    <!-- Twitter -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                       ><i class="fab fa-twitter"></i
-                        ></a>
-
-                    <!-- Google -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                       ><i class="fab fa-google"></i
-                        ></a>
-
-                    <!-- Instagram -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                       ><i class="fab fa-instagram"></i
-                        ></a>
-
-                    <!-- Linkedin -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                       ><i class="fab fa-linkedin-in"></i
-                        ></a>
-
-                    <!-- Github -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                       ><i class="fab fa-github"></i
-                        ></a>
-                </section>
-                <!-- Section: Social media -->
+        <footer>
+            <div class="footer-bottom">
+                <p>Copyright © 2023 
+                    <a>Tomasino Connect: UST One-Stop-Shop </a>. All rights reserved.
+                </p>
             </div>
-            <!-- Grid container -->
-
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2020 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-            </div>
-            <!-- Copyright -->
         </footer>
 
     </body>
